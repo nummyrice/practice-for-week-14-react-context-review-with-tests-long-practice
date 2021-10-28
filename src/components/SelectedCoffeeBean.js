@@ -1,7 +1,7 @@
 import {useCoffee} from "../context/CoffeeContext"
 
 const SelectedCoffeeBean = ({beans}) => {
-  const {coffeeBean, setCoffeeBeanId} = useCoffee()
+  const {coffeeBean} = useCoffee()
 
   return(
     <div className="selected-coffee">
